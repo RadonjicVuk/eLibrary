@@ -7,7 +7,7 @@ $(document).ready(function () {
   if (cookie === "") {
     window.location.href = "/";
   } else {
-    fetch("http://localhost:8080/api/user/isAdmin", {
+    fetch("http://35.237.133.90/api/user/isAdmin", {
       method: "post",
       headers: {
         authorization: cookie,
@@ -273,7 +273,7 @@ $(document).ready(function () {
     });
   });
 
-  fetch("http://localhost:8080/api/user/", {
+  fetch("http://35.237.133.90/api/user/", {
     method: "post",
     headers: {
       authorization: cookie,
@@ -311,7 +311,7 @@ $(document).ready(function () {
     }
   });
 
-  fetch("http://localhost:8080/api/book/expired", {
+  fetch("http://35.237.133.90/api/book/expired", {
     method: "put",
     headers: {
       authorization: cookie,
