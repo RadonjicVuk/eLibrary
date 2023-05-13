@@ -5,7 +5,7 @@ class Books {
   count = "";
   userId = "";
   cookie = "";
-  apiUrl = "http://35.237.133.90/api";
+  apiUrl = "http://34.139.10.111/api";
 
   // *Napravi knjigu
   create() {

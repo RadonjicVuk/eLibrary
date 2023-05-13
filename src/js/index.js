@@ -4,7 +4,7 @@ $(document).ready(function () {
   let cookie = new Cookies();
   cookie = cookie.getCookie();
   if (cookie !== "") {
-    fetch("http://35.237.133.90/api/user/isAdmin", {
+    fetch("http://34.139.10.111/api/user/isAdmin", {
       method: "post",
       headers: {
         authorization: cookie,
