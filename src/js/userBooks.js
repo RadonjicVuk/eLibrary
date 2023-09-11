@@ -7,7 +7,7 @@ $(document).ready(function () {
   if (cookie === "") {
     window.location.href = "/";
   } else {
-    fetch("http://34.139.10.111/api/user/isAdmin", {
+    fetch("http://35.233.52.62/api/user/isAdmin", {
       method: "post",
       headers: {
         authorization: cookie,
@@ -207,7 +207,7 @@ $(document).ready(function () {
     });
   });
 
-  fetch("http://34.139.10.111/api/book/", {
+  fetch("http://35.233.52.62/api/book/", {
     method: "post",
     headers: {
       authorization: cookie,
